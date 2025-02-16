@@ -69,7 +69,7 @@ export default function Hero() {
               <div className="portal-ring" style={{ animationDelay: "4s" }} />
               <div className="relative w-72 h-96 lg:w-[400px] lg:h-[600px] mx-auto overflow-hidden rounded-3xl">
                 <img
-                  src="/himanshu4.jpg"
+                  src="/himanshukumar.webp"
                   alt="Himanshu Kumar"
                   className="w-full h-full object-cover"
                 />
