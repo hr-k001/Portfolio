@@ -28,7 +28,7 @@ export default function Contact() {
                   Email
                 </h3>
                 <a
-                  href="mailto:contact@example.com"
+                  href="mailto:hkraj9105@gmail.com"
                   className="text-gray-300 hover:text-blue-400 transition-colors"
                 >
                   hkraj9105@gmail.com
@@ -45,7 +45,7 @@ export default function Contact() {
                   Phone
                 </h3>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+917563049735"
                   className="text-gray-300 hover:text-green-400 transition-colors"
                 >
                   +91 7563 04 9735
