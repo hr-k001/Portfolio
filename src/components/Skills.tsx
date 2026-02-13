@@ -1,30 +1,31 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Code2, Database, Server, Globe, Cpu, Cloud } from "lucide-react";
+import { Database, Cloud } from "lucide-react";
+import { SiReact, SiTypescript, SiNodedotjs, SiPython } from "react-icons/si";
 
 const skills = [
   {
     name: "React",
     level: 90,
-    icon: Code2,
+    icon: SiReact,
     color: "text-blue-400",
   },
   {
     name: "TypeScript",
     level: 85,
-    icon: Code2,
+    icon: SiTypescript,
     color: "text-blue-500",
   },
   {
     name: "Node.js",
     level: 80,
-    icon: Server,
+    icon: SiNodedotjs,
     color: "text-green-500",
   },
   {
     name: "Python",
     level: 75,
-    icon: Globe,
+    icon: SiPython,
     color: "text-yellow-500",
   },
   {
@@ -120,7 +121,7 @@ export default function Skills() {
                       transition={{ duration: 1, delay: 0.5 }}
                       className={`h-full rounded-full ${skill.color.replace(
                         "text",
-                        "bg"
+                        "bg",
                       )}`}
                     />
                   </div>

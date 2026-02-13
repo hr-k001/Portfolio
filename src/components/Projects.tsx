@@ -73,7 +73,7 @@ export default function Projects() {
     setDirection(newDirection);
     setCurrentIndex(
       (prevIndex) =>
-        (prevIndex + newDirection + projects.length) % projects.length
+        (prevIndex + newDirection + projects.length) % projects.length,
     );
   };
 
@@ -85,7 +85,7 @@ export default function Projects() {
           initial={{ opacity: 0, y: 100 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="floating-section"
+          //className="floating-section"
         >
           <h2 className="text-4xl font-bold mb-16 text-center text-gray-100">
             Projects
